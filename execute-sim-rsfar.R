@@ -1,5 +1,4 @@
 library(secure)
-library(stringr)
 source("R/rvsmanopt.R")
 source("R/generate-dataset.R")
 
