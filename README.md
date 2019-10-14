@@ -2,10 +2,10 @@
 Authors: Kohei Yoshikawa and Shuichi Kawano
 
 # Introduction 
-This is implementation of RVSManOpt in "Sparse Reduced-Rank Regression for Simultaneous Rank and Variable Selection via Manifold Optimization"
+This is an implementation of RVSManOpt in "Sparse Reduced-Rank Regression for Simultaneous Rank and Variable Selection via Manifold Optimization"
 
 # Usage example: Demonstraition of synthetic dataset 
-This is simple example which shows how to use these codes.
+This is a simple example which shows how to use these codes.
 ## 1. Import some libraries and our source codes.
 ```R
 library(secure)
@@ -13,11 +13,11 @@ source("R/rvsmanopt.R")
 source("R/generate-dataset.R")
 ```
 
-## 2. Generate Dataset
+## 2. Generate a dataset
 Set the following parameters, and generate dataset.
   - n: Sample size 
-  - p: The number of dimension of the predictor vectors
-  - q: The number of dimension of the response vectors
+  - p: The dimension of the predictor vectors
+  - q: The dimension of the response vectors
   - nrank: The true rank of the model
   - s2n: Signal to noise ratio
   - rho: The correlation of error vectors
