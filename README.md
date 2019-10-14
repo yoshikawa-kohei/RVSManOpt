@@ -14,7 +14,7 @@ source("R/generate-dataset.R")
 ```
 
 ## 2. Generate a dataset
-Set the following parameters, and generate dataset.
+Set the following parameters, and generate a dataset.
   - n: Sample size 
   - p: The dimension of the predictor vectors
   - q: The dimension of the response vectors
